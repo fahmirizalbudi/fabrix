@@ -1,2 +1,0 @@
-# anjayalok
-Gada
