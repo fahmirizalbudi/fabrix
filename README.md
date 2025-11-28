@@ -3,7 +3,7 @@
 
 **Fabrix** This is the landing page of Fabrix — a modern, and accessible fabric company.
 
-![Fabrix Preview](https://raw.githubusercontent.com/fahmirizalbudi/fabrix/refs/heads/main/screencapture-fabrix.png)
+![Fabrix Preview](https://raw.githubusercontent.com/fahmirizalbudi/fabrix/refs/heads/main/screencapture-fabrix-v2.png)
 
 ---
 
