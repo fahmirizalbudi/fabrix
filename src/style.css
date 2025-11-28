@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans';
 }
 
 body {
@@ -12,4 +15,116 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  padding: 12px 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__brand {
+  display: flex;
+  gap: 16px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+  letter-spacing: -0.27px;
+  color: #FFF;
+}
+
+.header__side {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__items {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.header__item {
+  list-style: none;
+  list-style-type: none;
+}
+
+.header__item-link {
+  font-size: 14px;
+  color: #CBD5E1;
+  line-height: 21px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.header__cta, .hero__cta {
+  cursor: pointer;
+  height: 40px;
+  background-color: #0FA0BD;
+  border-radius: 8px;
+  padding-inline: 16px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.21px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.hero {
+  padding-top: 20px;
+}
+
+.hero__background {
+  width: 100%;
+  background-image: url('/public/hero__background.png');
+  padding: 152px 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hero__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hero__title {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 48px;
+  letter-spacing: -1.58px;
+  text-align: center;
+}
+
+.hero__description {
+  width: 576px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFF;
 }
