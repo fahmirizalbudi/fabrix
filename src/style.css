@@ -64,7 +64,8 @@ body {
   text-decoration: none;
 }
 
-.header__cta, .hero__cta {
+.header__cta,
+.hero__cta {
   cursor: pointer;
   height: 40px;
   background-color: #0FA0BD;
@@ -72,7 +73,7 @@ body {
   padding-inline: 16px;
   color: #FFF;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 21px;
   letter-spacing: 0.21px;
   border: none;
@@ -122,9 +123,49 @@ main {
 }
 
 .hero__description {
+  font-weight: 200;
   width: 576px;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #FFF;
+}
+
+.fabrics__header {
+  padding-inline: 12px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.fabrics__title {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: -0.33px;
+}
+
+.fabrics__grid {
+  padding: 16px;
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.fabrics__card {
+  height: 293.33px;
+  border-radius: 8px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fabrics__name {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: #FFF;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 16px;
 }
